@@ -10,9 +10,9 @@ public class Pipe {
 	public static void main(String[] args) {
 
 		try {
-			
-			Process p1 = new ProcessBuilder("echo", "hola mundo").start();
-			Process p2 = new ProcessBuilder("wc", "-w").start();
+			//EL bash hay que ponerlo
+			Process p1 = new ProcessBuilder("bash","echo", "hola mundo").start();
+			Process p2 = new ProcessBuilder("bash","wc", "-w").start();
 			
 			
 			InputStream salidaP1= p1.getInputStream();

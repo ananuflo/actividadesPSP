@@ -1,4 +1,4 @@
-package ej6;
+ package ej6;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
