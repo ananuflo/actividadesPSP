@@ -1,0 +1,1 @@
+/usr/bin/dmesg: /usr/bin/dmesg: cannot execute binary file
